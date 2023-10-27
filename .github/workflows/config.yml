@@ -1,44 +1,61 @@
-name: UI Tests
+name: CheckGhActions
 
 on: workflow_dispatch
+  
+
+permissions:
+  contents: read
 
 jobs:
-  ui-tests:
+  build:
     runs-on: ubuntu-latest
-
+    continue-on-error: true
     steps:
+
       - uses: actions/checkout@v2
-
-      - name: Checkout (copy) gh-pages repository to GitHub runner
-        uses: actions/checkout@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v2
         with:
-          ref: gh-pages
-          path: ./.github/gh-pages
-
-      - name: Run UI-tests via docker-compose
-        env:
-          LOGIN: ${{ secrets.LOGIN }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          python-version: "3.10"
+      - name: Install Chrome
+        run: sudo apt-get install google-chrome-stable
+      - name: Install dependencies
         run: |
-          docker-compose up --exit-code-from regression || true
-
-      - name: Copy history from gh-pages to allure-results
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Lint with flake8
         run: |
-          sudo mkdir -p allure-results/history/
-#          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
-
-      - name: Generate Allure report
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+      - name: Run tests
         run: |
-          sudo docker-compose run regression /bin/sh -c "allure generate allure-results"
+          pytest -s -v --alluredir=allure-results 
 
-      - name: Update Allure history
+      - name: Add allure information
+        working-directory: allure-results
+        if: always()
         run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+          echo GIT_BRANCH=${{ github.head_ref || github.ref_name }}  >> environment.properties
+          echo GIT_COMMIT_ID=${{ github.sha }} >> environment.properties
+          echo GIT_COMMIT_MESSAGE=$(git show -s --format=%s HEAD) >> environment.properties
+          echo GIT_COMMIT_AUTHOR_NAME=$(git show -s --format='%ae' HEAD) >> environment.properties
+          echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
+          echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
+      - name: Allure results
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
         with:
-          token: ${{ secrets.CI_TOKEN }}
-          branch: gh-pages
-          folder: allure-report
-          clean: true
+          allure_results: allure-results
+          allure_report: allure-report
+          gh_pages: gh-pages
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+   #       PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
