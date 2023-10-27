@@ -7,7 +7,7 @@ from selenium import webdriver
 class BasePage:
 
     def __init__(self, driver, url):
-        super().__init__(webdriver)
+        super().__init__()
         self.driver = driver
         self.url = url
         self.timeout = 10
