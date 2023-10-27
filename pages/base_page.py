@@ -1,5 +1,4 @@
 import allure
-
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait as Wait
 
@@ -16,8 +15,7 @@ class BasePage:
         print('Current url: ' + get_url)
 
     def open(self):
-        with allure.step(f'Open page: {self.url}'):
-            self.driver.get(self.url)
+        self.driver.get(self.url)
 
     @allure.step('Check element is visible and clickable')
     def element_is_presence_and_clickable(self, locator):
