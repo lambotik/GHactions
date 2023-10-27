@@ -1,4 +1,4 @@
-name: TEST_demoQA
+name: CheckGhActions
 
 on: workflow_dispatch
   
