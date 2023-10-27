@@ -1,18 +1,16 @@
-from datetime import datetime
-
-import allure
 import pytest
 from selenium import webdriver
-from selenium.webdriver import ChromeOptions
+from selenium.webdriver.chrome.options import Options
 
 
-@pytest.fixture()
-def driver():
-    options = webdriver.ChromeOptions()
+@pytest.fixture(scope="function", autouse=True)
+def driver(request):
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(options=options)
-    driver.maximize_window()
-    driver.implicitly_wait(10)
+    request.cls.driver = driver
     yield driver
-    attach = driver.get_screenshot_as_png()
-    allure.attach(attach, name=f"Screenshot {datetime.today()}", attachment_type=allure.attachment_type.PNG)
     driver.quit()
