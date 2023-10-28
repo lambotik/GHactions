@@ -32,6 +32,10 @@ jobs:
         run: |
           pytest -s -v --alluredir=allure-results 
 
+      - name: Copy Allure History
+        run: |
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+
       - name: Add allure information
         working-directory: allure-results
         if: always()
