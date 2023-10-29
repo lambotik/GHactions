@@ -53,8 +53,8 @@ jobs:
 
 
           
-      - name: Test local action
-        uses: ./allure-report-action
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
         with:
