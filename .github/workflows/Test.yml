@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy report to Github Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@master
+        uses: peaceiris/actions-gh-pages@v3
         with:
           PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
           PUBLISH_BRANCH: gh-pages
