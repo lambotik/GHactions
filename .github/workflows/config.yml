@@ -1,16 +1,11 @@
-name: Allure Report Generation
+name: Check_Regression
 
-on:
-  workflow_dispatch: # Trigger the workflow manually
-    inputs:
-      tags: # Input parameter for test scenario tags
-        description: "Test scenario tags"
-        required: true
-        default: "smoke"
+on: workflow_dispatch
+
+
 permissions:
   contents: read
 
-  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,21 +32,25 @@ jobs:
         run: |
           pytest -s -v --alluredir=allure-results 
 
-      - name: Get Allure history # Step to retrieve Allure history
-        uses: actions/checkout@v3
-        if: always() # Execute even if previous steps fail
-        continue-on-error: true # Continue execution even if the step fails
-        with:
-          ref: gh-pages # Specify the branch to retrieve Allure history from
-          path: gh-pages # Set the destination path for Allure history
-
-      - name: Allure report action # Step to generate Allure report
+      - name: Add allure information
+        working-directory: allure-results
+        if: always()
+        run: |
+          echo GIT_BRANCH=${{ github.head_ref || github.ref_name }}  >> environment.properties
+          echo GIT_COMMIT_ID=${{ github.sha }} >> environment.properties
+          echo GIT_COMMIT_MESSAGE=$(git show -s --format=%s HEAD) >> environment.properties
+          echo GIT_COMMIT_AUTHOR_NAME=$(git show -s --format='%ae' HEAD) >> environment.properties
+          echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
+          echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
+      - name: Allure results
         uses: simple-elf/allure-report-action@master
-        if: always() # Execute even if previous steps fail
+        if: always()
+        id: allure-report
         with:
-          allure_results: allure-results # Specify the directory containing Allure results
-          allure_history: allure-history # Specify the directory to store Allure history
-          keep_reports: 5 # Specify the number of previous reports to keep
+          allure_results: allure-results
+          allure_report: allure-report
+          gh_pages: gh-pages
+          allure_history: allure-history
 
       - name: Deploy report to Github Pages
         if: always()
