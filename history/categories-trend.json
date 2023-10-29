@@ -3,6 +3,8 @@
 }, {
   "data" : { }
 }, {
+  "data" : { }
+}, {
   "buildOrder" : 27,
   "reportUrl" : "https://lambotik.github.io/GHactions/27/",
   "reportName" : "Allure Report with history",
