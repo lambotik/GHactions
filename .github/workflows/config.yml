@@ -31,6 +31,7 @@ jobs:
       - name: Run tests
         run: |
           pytest --alluredir=./allure-results
+      - name: |
           allure generate --clean -o ./allure-report ./allure-results
 
       - name: Add allure information
