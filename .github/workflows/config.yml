@@ -31,6 +31,12 @@ jobs:
       - name: Run tests
         run: |
           pytest -s -v --alluredir=allure-results 
+      - name: Generate report!
+        run: |
+          allure generate
+      - name: Copy Allure History
+        run: |
+          cp -r allure-report/history/ allure-results/
 
       - name: Add allure information
         working-directory: allure-results
@@ -51,9 +57,7 @@ jobs:
           allure_report: allure-report
           gh_pages: gh-pages
           allure_history: allure-history
-          run: |
-            allure generate --clean
-            cp -r allure-report/history/ allure-results/
+          
 
       - name: Deploy report to Github Pages
         if: always()
