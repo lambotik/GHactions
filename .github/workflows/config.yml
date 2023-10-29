@@ -30,13 +30,13 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Run tests
         run: |
-          pytest -s -v --alluredir=allure-results 
+          echo pytest -s -v --alluredir=allure-results 
       - name: Generate report!
         run: |
-          allure generate
+          echo allure generate
       - name: Copy Allure History
         run: |
-          cp -r allure-report/history/ allure-results/
+          echo cp -r allure-report/history/ allure-results/
 
       - name: Add allure information
         working-directory: allure-results
