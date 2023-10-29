@@ -2,16 +2,16 @@
   "values" : [ "master" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "fdd7ccd728c155309dbea5e55d8f85a8ee44533a" ],
+  "values" : [ "24b336b825a53bd2734cc6841ac42f3cd1a547f7" ],
   "name" : "GIT_COMMIT_ID"
 }, {
-  "values" : [ "Update Test.yml" ],
+  "values" : [ "Update docker-compose.yml" ],
   "name" : "GIT_COMMIT_MESSAGE"
 }, {
   "values" : [ "91555504+lambotik@users.noreply.github.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2023-10-30 01:46:46 +0300" ],
+  "values" : [ "2023-10-30 02:04:36 +0300" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
   "values" : [ "118.0.5993.117" ],
