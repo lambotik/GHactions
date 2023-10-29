@@ -45,14 +45,13 @@ jobs:
           echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
           echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
       - name: Allure results
-        uses: simple-elf/allure-report-action@master
+        uses: allure-framework/allure-github-actions@v3
         if: always()
-        id: allure-report
         with:
-          allure_results: allure-results
-          allure_report: allure-report
-          gh_pages: gh-pages
-          allure_history: allure-history
+          allure-command: allure-2.14.0/bin/allure
+          results: allure-results
+          report: allure-report
+          report-history: allure-history
 
       - name: Deploy report to Github Pages
         if: always()
