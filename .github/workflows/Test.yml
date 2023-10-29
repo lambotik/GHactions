@@ -51,17 +51,16 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-
-          
-      - name: Test marketplace action
+      - name: Allure results
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
         with:
-          allure_results: build/allure-results
-          gh_pages: gh-pages
+          allure_results: allure-results
           allure_report: allure-report
+          gh_pages: gh-pages
           allure_history: allure-history
+
 
       - name: Deploy report to Github Pages
         if: always()
