@@ -58,6 +58,7 @@ jobs:
         if: always()
         id: allure-report
         with:
+          PERSONAL_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
           allure_results: build/allure-results
           gh_pages: gh-pages
           allure_report: allure-report
