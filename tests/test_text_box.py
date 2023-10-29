@@ -15,7 +15,6 @@ def test_textbox_form(driver):
     info_in_table = text_box_page.get_user_info_from_table()
     assert user_entered == info_in_table, 'The data entered and the data in the table do not match.'
 
-
-# def test_x(driver):
-#     pages = driver.get(BasePage.)
-#     time.sleep(2)
+@allure.title("Test x")
+def test_x(driver):
+    assert 1 == 1
