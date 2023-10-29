@@ -58,7 +58,6 @@ jobs:
         if: always()
         id: allure-report
         with:
-          PERSONAL_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
           allure_results: build/allure-results
           gh_pages: gh-pages
           allure_report: allure-report
@@ -66,7 +65,7 @@ jobs:
 
       - name: Deploy report to Github Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@master
         with:
           PERSONAL_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
           PUBLISH_BRANCH: gh-pages
