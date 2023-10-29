@@ -31,7 +31,8 @@ jobs:
       - name: Run tests
         run: |
           pytest --alluredir=./allure-results
-      - name: |
+      - name: Copy report
+        run: |
           allure generate --clean -o ./allure-report ./allure-results
 
       - name: Add allure information
