@@ -1,11 +1,11 @@
 {
-  "uid" : "f50be344468a938a",
+  "uid" : "1984f1a998107a8f",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1698619124515,
-    "stop" : 1698619124515,
+    "start" : 1698619380291,
+    "stop" : 1698619380291,
     "duration" : 0
   },
   "status" : "passed",
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1698619107468,
-      "stop" : 1698619107484,
-      "duration" : 16
+      "start" : 1698619367805,
+      "stop" : 1698619367824,
+      "duration" : 19
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1698619123710,
-      "stop" : 1698619124515,
-      "duration" : 805
+      "start" : 1698619379440,
+      "stop" : 1698619380290,
+      "duration" : 850
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,9 +45,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1698619124516,
-      "stop" : 1698619124570,
-      "duration" : 54
+      "start" : 1698619380292,
+      "stop" : 1698619380349,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az178-832"
+    "value" : "fv-az445-186"
   }, {
     "name" : "thread",
-    "value" : "1862-MainThread"
+    "value" : "1915-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -96,11 +96,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "f50be344468a938a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698619124515,
+          "stop" : 1698619124515,
+          "duration" : 0
+        }
+      }, {
         "uid" : "45dbb8beab378c22",
         "reportUrl" : "https://lambotik.github.io/GHactions/27//#testresult/45dbb8beab378c22",
         "status" : "passed",
@@ -113,6 +121,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "f50be344468a938a.json",
+  "source" : "1984f1a998107a8f.json",
   "parameterValues" : [ ]
 }
