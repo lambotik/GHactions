@@ -28,9 +28,11 @@ jobs:
         run: |
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-      - name: Run tests
+      - name: Run tests and generate Allure report
         run: |
-          echo pytest -s -v --alluredir=allure-results 
+          pytest --alluredir=./allure-results
+          allure generate --clean -o ./allure-report ./allure-results
+      
 
       - name: Add allure information
         working-directory: allure-results
@@ -42,6 +44,14 @@ jobs:
           echo GIT_COMMIT_AUTHOR_NAME=$(git show -s --format='%ae' HEAD) >> environment.properties
           echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
           echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
+
+      - name: Archive Allure report
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: ./allure-report
+
+          
       - name: Allure results
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -53,8 +63,7 @@ jobs:
           allure_history: allure-history
           
 
-      - name: Deploy report to Github Pages
-        if: always()
+      - name: Deploy allure-history
         uses: peaceiris/actions-gh-pages@v3
         with:
           PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
