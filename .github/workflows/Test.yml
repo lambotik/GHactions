@@ -12,9 +12,9 @@ jobs:
     continue-on-error: true
     steps:
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
           python-version: "3.10"
       - name: Install Chrome
@@ -42,15 +42,6 @@ jobs:
           echo GIT_COMMIT_AUTHOR_NAME=$(git show -s --format='%ae' HEAD) >> environment.properties
           echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
           echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
-
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
       - name: Allure results
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -61,11 +52,10 @@ jobs:
           gh_pages: gh-pages
           allure_history: allure-history
 
-
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@master
         with:
-          PERSONAL_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
