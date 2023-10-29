@@ -13,4 +13,4 @@ class TextBoxPageLocators:
     NAME = (By.ID, "name")
     EMAIL = (By.ID, "email")
     CURRENT_ADDRESS = (By.XPATH, '//p[@id="currentAddress"]')
-    PERMANENT_ADDRESS = (By.XPATH, '//p[@id="permanentAddress"]')
+    PERMANENT_ADDRESS = (By.XPATH, '//p[@id="permanentAddres"]')
