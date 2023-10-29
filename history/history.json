@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "121e72a526c83a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698619118792,
+        "stop" : 1698619123649,
+        "duration" : 4857
+      }
+    }, {
       "uid" : "3dd22fe0938d7c8a",
       "reportUrl" : "https://lambotik.github.io/GHactions/27//#testresult/3dd22fe0938d7c8a",
       "status" : "passed",
@@ -24,11 +32,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f50be344468a938a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698619124515,
+        "stop" : 1698619124515,
+        "duration" : 0
+      }
+    }, {
       "uid" : "45dbb8beab378c22",
       "reportUrl" : "https://lambotik.github.io/GHactions/27//#testresult/45dbb8beab378c22",
       "status" : "passed",
