@@ -1,12 +1,12 @@
 {
-  "uid" : "c39618c108aaa463",
+  "uid" : "16548a0f891a6b9",
   "name" : "Test text box form.",
   "fullName" : "tests.test_text_box#test_textbox_form",
   "historyId" : "66441f5fe77bd76f5ace56a5cfe0250a",
   "time" : {
-    "start" : 1698682255992,
-    "stop" : 1698682262551,
-    "duration" : 6559
+    "start" : 1698683032800,
+    "stop" : 1698683035968,
+    "duration" : 3168
   },
   "description" : "This test checks the data entered and the data in the displayed table.",
   "descriptionHtml" : "<p>This test checks the data entered and the data in the displayed table.</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "driver",
     "time" : {
-      "start" : 1698682248080,
-      "stop" : 1698682248100,
-      "duration" : 20
+      "start" : 1698683030867,
+      "stop" : 1698683032800,
+      "duration" : 1933
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1698682248100,
-      "stop" : 1698682255991,
-      "duration" : 7891
+      "start" : 1698683030850,
+      "stop" : 1698683030867,
+      "duration" : 17
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,27 +48,27 @@
     "description" : "This test checks the data entered and the data in the displayed table.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input customer full name:Ферапонт Рогов Германович.",
+      "name" : "Input customer full name:Добромысл Калинина Ильич.",
       "time" : {
-        "start" : 1698682259472,
-        "stop" : 1698682260171,
-        "duration" : 699
+        "start" : 1698683034509,
+        "stop" : 1698683035038,
+        "duration" : 529
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1698682259473,
-          "stop" : 1698682259623,
-          "duration" : 150
+          "start" : 1698683034509,
+          "stop" : 1698683034717,
+          "duration" : 208
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1698682259511,
-            "stop" : 1698682259623,
-            "duration" : 112
+            "start" : 1698683034539,
+            "stop" : 1698683034717,
+            "duration" : 178
           },
           "status" : "passed",
           "steps" : [ ],
@@ -99,27 +99,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer email:panovorest@example.net.",
+      "name" : "Input customer email:dmitri1976@example.net.",
       "time" : {
-        "start" : 1698682260171,
-        "stop" : 1698682260620,
-        "duration" : 449
+        "start" : 1698683035038,
+        "stop" : 1698683035270,
+        "duration" : 232
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1698682260171,
-          "stop" : 1698682260414,
-          "duration" : 243
+          "start" : 1698683035038,
+          "stop" : 1698683035202,
+          "duration" : 164
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1698682260231,
-            "stop" : 1698682260414,
-            "duration" : 183
+            "start" : 1698683035177,
+            "stop" : 1698683035202,
+            "duration" : 25
           },
           "status" : "passed",
           "steps" : [ ],
@@ -150,27 +150,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer current_address:с. Камень-на-Оби, пер. Сплавный, д. 9/6 стр. 458, 303579.",
+      "name" : "Input customer current_address:п. Листвянка (Иркут.), пр. Плеханова, д. 8/4 к. 43, 512468.",
       "time" : {
-        "start" : 1698682260620,
-        "stop" : 1698682261788,
-        "duration" : 1168
+        "start" : 1698683035270,
+        "stop" : 1698683035492,
+        "duration" : 222
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1698682260620,
-          "stop" : 1698682260908,
-          "duration" : 288
+          "start" : 1698683035270,
+          "stop" : 1698683035336,
+          "duration" : 66
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1698682260753,
-            "stop" : 1698682260908,
-            "duration" : 155
+            "start" : 1698683035304,
+            "stop" : 1698683035335,
+            "duration" : 31
           },
           "status" : "passed",
           "steps" : [ ],
@@ -201,27 +201,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer permanent_address:клх Москва, пер. Курский, д. 4/2, 964157.",
+      "name" : "Input customer permanent_address:к. Ноябрьск, ш. Герцена, д. 59 к. 638, 806315.",
       "time" : {
-        "start" : 1698682261788,
-        "stop" : 1698682262080,
-        "duration" : 292
+        "start" : 1698683035492,
+        "stop" : 1698683035650,
+        "duration" : 158
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1698682261789,
-          "stop" : 1698682261910,
-          "duration" : 121
+          "start" : 1698683035492,
+          "stop" : 1698683035541,
+          "duration" : 49
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1698682261860,
-            "stop" : 1698682261910,
-            "duration" : 50
+            "start" : 1698683035515,
+            "stop" : 1698683035541,
+            "duration" : 26
           },
           "status" : "passed",
           "steps" : [ ],
@@ -254,17 +254,17 @@
     }, {
       "name" : "Scroll to Submit button.",
       "time" : {
-        "start" : 1698682262080,
-        "stop" : 1698682262180,
-        "duration" : 100
+        "start" : 1698683035650,
+        "stop" : 1698683035711,
+        "duration" : 61
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is presence",
         "time" : {
-          "start" : 1698682262080,
-          "stop" : 1698682262123,
-          "duration" : 43
+          "start" : 1698683035650,
+          "stop" : 1698683035675,
+          "duration" : 25
         },
         "status" : "passed",
         "steps" : [ ],
@@ -287,25 +287,25 @@
     }, {
       "name" : "Click to Submit button.",
       "time" : {
-        "start" : 1698682262180,
-        "stop" : 1698682262325,
-        "duration" : 145
+        "start" : 1698683035711,
+        "stop" : 1698683035797,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1698682262180,
-          "stop" : 1698682262251,
-          "duration" : 71
+          "start" : 1698683035711,
+          "stop" : 1698683035753,
+          "duration" : 42
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1698682262207,
-            "stop" : 1698682262251,
-            "duration" : 44
+            "start" : 1698683035728,
+            "stop" : 1698683035753,
+            "duration" : 25
           },
           "status" : "passed",
           "steps" : [ ],
@@ -338,9 +338,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1698682262325,
-        "stop" : 1698682262362,
-        "duration" : 37
+        "start" : 1698683035797,
+        "stop" : 1698683035820,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -356,9 +356,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1698682262383,
-        "stop" : 1698682262419,
-        "duration" : 36
+        "start" : 1698683035835,
+        "stop" : 1698683035862,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
@@ -374,9 +374,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1698682262434,
-        "stop" : 1698682262484,
-        "duration" : 50
+        "start" : 1698683035870,
+        "stop" : 1698683035927,
+        "duration" : 57
       },
       "status" : "passed",
       "steps" : [ ],
@@ -392,9 +392,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1698682262503,
-        "stop" : 1698682262537,
-        "duration" : 34
+        "start" : 1698683035936,
+        "stop" : 1698683035958,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -408,11 +408,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Getting table values:['Ферапонт Рогов Германович', 'panovorest@example.net', 'с. Камень-на-Оби, пер. Сплавный, д. 9/6 стр. 458, 303579', 'клх Москва, пер. Курский, д. 4/2, 964157']",
+      "name" : "Getting table values:['Добромысл Калинина Ильич', 'dmitri1976@example.net', 'п. Листвянка (Иркут.), пр. Плеханова, д. 8/4 к. 43, 512468', 'к. Ноябрьск, ш. Герцена, д. 59 к. 638, 806315']",
       "time" : {
-        "start" : 1698682262550,
-        "stop" : 1698682262551,
-        "duration" : 1
+        "start" : 1698683035968,
+        "stop" : 1698683035968,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -433,9 +433,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1698682262552,
-      "stop" : 1698682262624,
-      "duration" : 72
+      "start" : 1698683035969,
+      "stop" : 1698683036028,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
@@ -454,10 +454,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az175-749"
+    "value" : "fv-az614-596"
   }, {
     "name" : "thread",
-    "value" : "1940-MainThread"
+    "value" : "1800-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -484,11 +484,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "c39618c108aaa463",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698682255992,
+          "stop" : 1698682262551,
+          "duration" : 6559
+        }
+      }, {
         "uid" : "40a06ea1997df7c7",
         "reportUrl" : "https://lambotik.github.io/GHactions/47//#testresult/40a06ea1997df7c7",
         "status" : "passed",
@@ -501,6 +509,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "c39618c108aaa463.json",
+  "source" : "16548a0f891a6b9.json",
   "parameterValues" : [ ]
 }

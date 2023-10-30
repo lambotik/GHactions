@@ -2,7 +2,7 @@
   "values" : [ "master" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "ca6c200bb539c75358f71505f350a2f59789e1af" ],
+  "values" : [ "05fcddb08748f9d97f74a2f6c732f912ea015007" ],
   "name" : "GIT_COMMIT_ID"
 }, {
   "values" : [ "Update Test.yml" ],
@@ -11,7 +11,7 @@
   "values" : [ "91555504+lambotik@users.noreply.github.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2023-10-30 19:10:10 +0300" ],
+  "values" : [ "2023-10-30 19:23:13 +0300" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
   "values" : [ "118.0.5993.117" ],

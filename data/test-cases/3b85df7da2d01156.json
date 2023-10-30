@@ -1,22 +1,22 @@
 {
-  "uid" : "c59455bc9fcabbe4",
+  "uid" : "3b85df7da2d01156",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1698682263482,
-    "stop" : 1698682263482,
+    "start" : 1698683036856,
+    "stop" : 1698683036856,
     "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "driver",
     "time" : {
-      "start" : 1698682248080,
-      "stop" : 1698682248100,
-      "duration" : 20
+      "start" : 1698683036031,
+      "stop" : 1698683036855,
+      "duration" : 824
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1698682262628,
-      "stop" : 1698682263481,
-      "duration" : 853
+      "start" : 1698683030850,
+      "stop" : 1698683030867,
+      "duration" : 17
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,9 +45,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1698682263483,
-      "stop" : 1698682263539,
-      "duration" : 56
+      "start" : 1698683036856,
+      "stop" : 1698683036911,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az175-749"
+    "value" : "fv-az614-596"
   }, {
     "name" : "thread",
-    "value" : "1940-MainThread"
+    "value" : "1800-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -96,11 +96,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "c59455bc9fcabbe4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698682263482,
+          "stop" : 1698682263482,
+          "duration" : 0
+        }
+      }, {
         "uid" : "2edaa627ae217841",
         "reportUrl" : "https://lambotik.github.io/GHactions/47//#testresult/2edaa627ae217841",
         "status" : "passed",
@@ -113,6 +121,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "c59455bc9fcabbe4.json",
+  "source" : "3b85df7da2d01156.json",
   "parameterValues" : [ ]
 }

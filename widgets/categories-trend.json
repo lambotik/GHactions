@@ -1,6 +1,8 @@
 [ {
   "data" : { }
 }, {
+  "data" : { }
+}, {
   "buildOrder" : 47,
   "reportUrl" : "https://lambotik.github.io/GHactions/47/",
   "reportName" : "Allure Report with history",
