@@ -1,0 +1,19 @@
+[ {
+  "values" : [ "master" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "ca6c200bb539c75358f71505f350a2f59789e1af" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Update Test.yml" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2023-10-30 19:10:10 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "118.0.5993.117" ],
+  "name" : "CHROME_VERSION"
+} ]

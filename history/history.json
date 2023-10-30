@@ -1,0 +1,58 @@
+{
+  "66441f5fe77bd76f5ace56a5cfe0250a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c39618c108aaa463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698682255992,
+        "stop" : 1698682262551,
+        "duration" : 6559
+      }
+    }, {
+      "uid" : "40a06ea1997df7c7",
+      "reportUrl" : "https://lambotik.github.io/GHactions/47//#testresult/40a06ea1997df7c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698681736664,
+        "stop" : 1698681739816,
+        "duration" : 3152
+      }
+    } ]
+  },
+  "f123bd16f6254dfbd03f5e31dd162e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c59455bc9fcabbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698682263482,
+        "stop" : 1698682263482,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2edaa627ae217841",
+      "reportUrl" : "https://lambotik.github.io/GHactions/47//#testresult/2edaa627ae217841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698681740689,
+        "stop" : 1698681740690,
+        "duration" : 1
+      }
+    } ]
+  }
+}
