@@ -1,11 +1,9 @@
-import time
-
 import allure
 
-from pages.base_page import BasePage
 from pages.text_box_page import TextBoxPage
 
 
+@allure.suite("Text Form")
 @allure.title("Test text box form.")
 def test_textbox_form(driver):
     """This test checks the data entered and the data in the displayed table."""
@@ -14,6 +12,7 @@ def test_textbox_form(driver):
     user_entered = text_box_page.fill_fields()
     info_in_table = text_box_page.get_user_info_from_table()
     assert user_entered == info_in_table, 'The data entered and the data in the table do not match.'
+
 
 @allure.title("Test x")
 def test_x(driver):
