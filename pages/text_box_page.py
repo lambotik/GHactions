@@ -1,3 +1,5 @@
+import time
+
 import allure
 
 from data.generator import generated_person
