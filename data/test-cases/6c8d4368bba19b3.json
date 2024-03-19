@@ -1,12 +1,12 @@
 {
-  "uid" : "d18f084845916aae",
+  "uid" : "6c8d4368bba19b3",
   "name" : "Test text box form.",
   "fullName" : "tests.test_text_box#test_textbox_form",
   "historyId" : "66441f5fe77bd76f5ace56a5cfe0250a",
   "time" : {
-    "start" : 1710858573430,
-    "stop" : 1710858582937,
-    "duration" : 9507
+    "start" : 1710858837544,
+    "stop" : 1710858870107,
+    "duration" : 32563
   },
   "description" : "This test checks the data entered and the data in the displayed table.",
   "descriptionHtml" : "<p>This test checks the data entered and the data in the displayed table.</p>\n",
@@ -16,31 +16,31 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710858563594,
-      "stop" : 1710858563610,
+      "start" : 1710858836309,
+      "stop" : 1710858836325,
       "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710858563610,
-      "stop" : 1710858573429,
-      "duration" : 9819
+      "start" : 1710858836325,
+      "stop" : 1710858837543,
+      "duration" : 1218
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -48,27 +48,27 @@
     "description" : "This test checks the data entered and the data in the displayed table.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input customer full name:Майя Кошелев Жанович.",
+      "name" : "Input customer full name:Вацлав Агафонов Александровна.",
       "time" : {
-        "start" : 1710858581819,
-        "stop" : 1710858582145,
-        "duration" : 326
+        "start" : 1710858869435,
+        "stop" : 1710858869546,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710858581819,
-          "stop" : 1710858581866,
-          "duration" : 47
+          "start" : 1710858869435,
+          "stop" : 1710858869476,
+          "duration" : 41
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710858581843,
-            "stop" : 1710858581866,
-            "duration" : 23
+            "start" : 1710858869455,
+            "stop" : 1710858869476,
+            "duration" : 21
           },
           "status" : "passed",
           "steps" : [ ],
@@ -77,8 +77,8 @@
             "name" : "locator",
             "value" : "('xpath', '//input[@id=\"userName\"]')"
           } ],
-          "stepsCount" : 0,
           "hasContent" : true,
+          "stepsCount" : 0,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false
         } ],
@@ -87,39 +87,39 @@
           "name" : "locator",
           "value" : "('xpath', '//input[@id=\"userName\"]')"
         } ],
-        "stepsCount" : 1,
         "hasContent" : true,
+        "stepsCount" : 1,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "hasContent" : true,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Input customer email:lavrenti2020@example.org.",
+      "name" : "Input customer email:ljubim2017@example.com.",
       "time" : {
-        "start" : 1710858582145,
-        "stop" : 1710858582513,
-        "duration" : 368
+        "start" : 1710858869546,
+        "stop" : 1710858869624,
+        "duration" : 78
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710858582145,
-          "stop" : 1710858582462,
-          "duration" : 317
+          "start" : 1710858869546,
+          "stop" : 1710858869579,
+          "duration" : 33
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710858582183,
-            "stop" : 1710858582462,
-            "duration" : 279
+            "start" : 1710858869562,
+            "stop" : 1710858869579,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -128,8 +128,8 @@
             "name" : "locator",
             "value" : "('id', 'userEmail')"
           } ],
-          "stepsCount" : 0,
           "hasContent" : true,
+          "stepsCount" : 0,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false
         } ],
@@ -138,39 +138,39 @@
           "name" : "locator",
           "value" : "('id', 'userEmail')"
         } ],
-        "stepsCount" : 1,
         "hasContent" : true,
+        "stepsCount" : 1,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "hasContent" : true,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Input customer current_address:клх Звенигород, ул. Щорса, д. 3, 530155.",
+      "name" : "Input customer current_address:ст. Волоколамск, алл. Школьная, д. 2 стр. 9, 055597.",
       "time" : {
-        "start" : 1710858582513,
-        "stop" : 1710858582606,
-        "duration" : 93
+        "start" : 1710858869624,
+        "stop" : 1710858869796,
+        "duration" : 172
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710858582513,
-          "stop" : 1710858582548,
-          "duration" : 35
+          "start" : 1710858869624,
+          "stop" : 1710858869688,
+          "duration" : 64
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710858582529,
-            "stop" : 1710858582548,
-            "duration" : 19
+            "start" : 1710858869647,
+            "stop" : 1710858869688,
+            "duration" : 41
           },
           "status" : "passed",
           "steps" : [ ],
@@ -179,8 +179,8 @@
             "name" : "locator",
             "value" : "('id', 'currentAddress')"
           } ],
-          "stepsCount" : 0,
           "hasContent" : true,
+          "stepsCount" : 0,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false
         } ],
@@ -189,38 +189,38 @@
           "name" : "locator",
           "value" : "('id', 'currentAddress')"
         } ],
-        "stepsCount" : 1,
         "hasContent" : true,
+        "stepsCount" : 1,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "hasContent" : true,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Input customer permanent_address:с. Кондопога, наб. Полтавская, д. 4 стр. 7, 591650.",
+      "name" : "Input customer permanent_address:клх Егорьевск, пр. Клубный, д. 56 к. 4/8, 505111.",
       "time" : {
-        "start" : 1710858582606,
-        "stop" : 1710858582708,
-        "duration" : 102
+        "start" : 1710858869796,
+        "stop" : 1710858869900,
+        "duration" : 104
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710858582607,
-          "stop" : 1710858582642,
-          "duration" : 35
+          "start" : 1710858869796,
+          "stop" : 1710858869840,
+          "duration" : 44
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710858582623,
-            "stop" : 1710858582641,
+            "start" : 1710858869822,
+            "stop" : 1710858869840,
             "duration" : 18
           },
           "status" : "passed",
@@ -230,8 +230,8 @@
             "name" : "locator",
             "value" : "('id', 'permanentAddress')"
           } ],
-          "stepsCount" : 0,
           "hasContent" : true,
+          "stepsCount" : 0,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false
         } ],
@@ -240,31 +240,31 @@
           "name" : "locator",
           "value" : "('id', 'permanentAddress')"
         } ],
-        "stepsCount" : 1,
         "hasContent" : true,
+        "stepsCount" : 1,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "hasContent" : true,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Scroll to Submit button.",
       "time" : {
-        "start" : 1710858582709,
-        "stop" : 1710858582752,
-        "duration" : 43
+        "start" : 1710858869900,
+        "stop" : 1710858869948,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is presence",
         "time" : {
-          "start" : 1710858582709,
-          "stop" : 1710858582728,
-          "duration" : 19
+          "start" : 1710858869900,
+          "stop" : 1710858869917,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -273,39 +273,39 @@
           "name" : "locator",
           "value" : "('css selector', '#submit')"
         } ],
-        "stepsCount" : 0,
         "hasContent" : true,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
       "hasContent" : true,
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Click to Submit button.",
       "time" : {
-        "start" : 1710858582752,
-        "stop" : 1710858582840,
-        "duration" : 88
+        "start" : 1710858869948,
+        "stop" : 1710858870014,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710858582752,
-          "stop" : 1710858582784,
+          "start" : 1710858869948,
+          "stop" : 1710858869980,
           "duration" : 32
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710858582765,
-            "stop" : 1710858582784,
-            "duration" : 19
+            "start" : 1710858869963,
+            "stop" : 1710858869980,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -314,8 +314,8 @@
             "name" : "locator",
             "value" : "('css selector', '#submit')"
           } ],
-          "stepsCount" : 0,
           "hasContent" : true,
+          "stepsCount" : 0,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false
         } ],
@@ -324,23 +324,23 @@
           "name" : "locator",
           "value" : "('css selector', '#submit')"
         } ],
-        "stepsCount" : 1,
         "hasContent" : true,
+        "stepsCount" : 1,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "hasContent" : true,
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710858582841,
-        "stop" : 1710858582858,
-        "duration" : 17
+        "start" : 1710858870014,
+        "stop" : 1710858870032,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -349,16 +349,16 @@
         "name" : "locator",
         "value" : "('id', 'name')"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710858582869,
-        "stop" : 1710858582885,
-        "duration" : 16
+        "start" : 1710858870043,
+        "stop" : 1710858870057,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -367,15 +367,15 @@
         "name" : "locator",
         "value" : "('id', 'email')"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710858582893,
-        "stop" : 1710858582908,
+        "start" : 1710858870064,
+        "stop" : 1710858870079,
         "duration" : 15
       },
       "status" : "passed",
@@ -385,16 +385,16 @@
         "name" : "locator",
         "value" : "('xpath', '//p[@id=\"currentAddress\"]')"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710858582915,
-        "stop" : 1710858582930,
-        "duration" : 15
+        "start" : 1710858870085,
+        "stop" : 1710858870101,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -403,46 +403,46 @@
         "name" : "locator",
         "value" : "('xpath', '//p[@id=\"permanentAddress\"]')"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Getting table values:['Майя Кошелев Жанович', 'lavrenti2020@example.org', 'клх Звенигород, ул. Щорса, д. 3, 530155', 'с. Кондопога, наб. Полтавская, д. 4 стр. 7, 591650']",
+      "name" : "Getting table values:['Вацлав Агафонов Александровна', 'ljubim2017@example.com', 'ст. Волоколамск, алл. Школьная, д. 2 стр. 9, 055597', 'клх Егорьевск, пр. Клубный, д. 56 к. 4/8, 505111']",
       "time" : {
-        "start" : 1710858582937,
-        "stop" : 1710858582937,
+        "start" : 1710858870107,
+        "stop" : 1710858870107,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 22,
     "hasContent" : true,
+    "stepsCount" : 22,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710858582937,
-      "stop" : 1710858582999,
-      "duration" : 62
+      "start" : 1710858870107,
+      "stop" : 1710858870170,
+      "duration" : 63
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -454,10 +454,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "fv-az1052-273"
+    "value" : "fv-az1240-768"
   }, {
     "name" : "thread",
-    "value" : "1772-MainThread"
+    "value" : "1801-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -479,8 +479,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d18f084845916aae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710858573430,
+          "stop" : 1710858582937,
+          "duration" : 9507
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "d18f084845916aae.json",
+  "source" : "6c8d4368bba19b3.json",
   "parameterValues" : [ ]
 }

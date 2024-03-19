@@ -1,60 +1,60 @@
 {
-  "uid" : "8ae1e07073c297a9",
+  "uid" : "c741dc2be10ff454",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1710858583774,
-    "stop" : 1710858583774,
+    "start" : 1710858870942,
+    "stop" : 1710858870942,
     "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1710858583002,
-      "stop" : 1710858583774,
-      "duration" : 772
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710858563594,
-      "stop" : 1710858563610,
+      "start" : 1710858836309,
+      "stop" : 1710858836325,
       "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1710858870172,
+      "stop" : 1710858870941,
+      "duration" : 769
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710858583775,
-      "stop" : 1710858583830,
-      "duration" : 55
+      "start" : 1710858870942,
+      "stop" : 1710858870998,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az1052-273"
+    "value" : "fv-az1240-768"
   }, {
     "name" : "thread",
-    "value" : "1772-MainThread"
+    "value" : "1801-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -91,8 +91,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8ae1e07073c297a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710858583774,
+          "stop" : 1710858583774,
+          "duration" : 0
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "8ae1e07073c297a9.json",
+  "source" : "c741dc2be10ff454.json",
   "parameterValues" : [ ]
 }
