@@ -89,7 +89,7 @@ jobs:
           keep_reports: 100
 
       - name: 4. Deploy allure_report to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         if: always()
         with:
           token: ${{ secrets.CI_TOKEN }}
