@@ -1,11 +1,11 @@
 {
-  "uid" : "9630e998f320d7b8",
+  "uid" : "b8603b043ce2c5b6",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1710864238218,
-    "stop" : 1710864238218,
+    "start" : 1710864613383,
+    "stop" : 1710864613383,
     "duration" : 0
   },
   "status" : "passed",
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710864219550,
-      "stop" : 1710864219566,
+      "start" : 1710864603626,
+      "stop" : 1710864603642,
       "duration" : 16
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710864237440,
-      "stop" : 1710864238217,
-      "duration" : 777
+      "start" : 1710864612612,
+      "stop" : 1710864613383,
+      "duration" : 771
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,9 +45,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710864238218,
-      "stop" : 1710864238274,
-      "duration" : 56
+      "start" : 1710864613384,
+      "stop" : 1710864613439,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az984-917"
+    "value" : "fv-az1208-527"
   }, {
     "name" : "thread",
-    "value" : "1785-MainThread"
+    "value" : "1781-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -91,8 +91,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9630e998f320d7b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710864238218,
+          "stop" : 1710864238218,
+          "duration" : 0
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "9630e998f320d7b8.json",
+  "source" : "b8603b043ce2c5b6.json",
   "parameterValues" : [ ]
 }
