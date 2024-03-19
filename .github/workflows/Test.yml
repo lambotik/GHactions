@@ -59,6 +59,12 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
+      - name: Copy history from gh-pages to allure-results
+        if: always()
+        run: |
+          sudo mkdir -p allure-results/history
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+
       - name: 2. Download Artifacts
         uses: actions/download-artifact@v3
         id: download
