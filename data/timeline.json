@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1052-273",
+    "children" : [ {
+      "name" : "1772-MainThread",
+      "children" : [ {
+        "name" : "Test x",
+        "uid" : "8ae1e07073c297a9",
+        "parentUid" : "1eeadf443c18c8b93971da7f80e62ce9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710858583774,
+          "stop" : 1710858583774,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test text box form.",
+        "uid" : "d18f084845916aae",
+        "parentUid" : "1eeadf443c18c8b93971da7f80e62ce9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710858573430,
+          "stop" : 1710858582937,
+          "duration" : 9507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1eeadf443c18c8b93971da7f80e62ce9"
+    } ],
+    "uid" : "5410f66c8a5f408c7be0ab0ce101780e"
+  } ],
+  "name" : "timeline"
+}
