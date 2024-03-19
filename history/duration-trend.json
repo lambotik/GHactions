@@ -1,1 +1,12 @@
-[{"buildOrder":86,"reportUrl":"https://lambotik.github.io/GHactions/86/","reportName":"Allure Report with history","data":{"duration":7408}}]
+[ {
+  "data" : {
+    "duration" : 9436
+  }
+}, {
+  "buildOrder" : 86,
+  "reportUrl" : "https://lambotik.github.io/GHactions/86/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 7408
+  }
+} ]

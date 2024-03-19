@@ -1,1 +1,58 @@
-{"66441f5fe77bd76f5ace56a5cfe0250a":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"e464dd07812ef338","reportUrl":"https://lambotik.github.io/GHactions/86//#testresult/e464dd07812ef338","status":"passed","time":{"start":1710871118139,"stop":1710871124705,"duration":6566}}]},"f123bd16f6254dfbd03f5e31dd162e98":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"178d7ec4397b665f","reportUrl":"https://lambotik.github.io/GHactions/86//#testresult/178d7ec4397b665f","status":"passed","time":{"start":1710871125547,"stop":1710871125547,"duration":0}}]}}
+{
+  "66441f5fe77bd76f5ace56a5cfe0250a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d0444256084fbf4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710875596829,
+        "stop" : 1710875605428,
+        "duration" : 8599
+      }
+    }, {
+      "uid" : "e464dd07812ef338",
+      "reportUrl" : "https://lambotik.github.io/GHactions/86//#testresult/e464dd07812ef338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710871118139,
+        "stop" : 1710871124705,
+        "duration" : 6566
+      }
+    } ]
+  },
+  "f123bd16f6254dfbd03f5e31dd162e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "87a264147cb06867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710875606264,
+        "stop" : 1710875606265,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "178d7ec4397b665f",
+      "reportUrl" : "https://lambotik.github.io/GHactions/86//#testresult/178d7ec4397b665f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710871125547,
+        "stop" : 1710871125547,
+        "duration" : 0
+      }
+    } ]
+  }
+}

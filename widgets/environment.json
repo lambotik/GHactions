@@ -1,1 +1,19 @@
-[{"values":["master"],"name":"GIT_BRANCH"},{"values":["0f7e190cdad44252f167c7e1670e50cc4f79d248"],"name":"GIT_COMMIT_ID"},{"values":["Update Test.yml"],"name":"GIT_COMMIT_MESSAGE"},{"values":["91555504+lambotik@users.noreply.github.com"],"name":"GIT_COMMIT_AUTHOR_NAME"},{"values":["2024-03-19 20:55:49 +0300"],"name":"GIT_COMMIT_TIME"},{"values":["122.0.6261.128"],"name":"CHROME_VERSION"}]
+[ {
+  "values" : [ "master" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "d9de43322432b278f441be668e44be397fe46253" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Update Test.yml" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-03-19 22:12:41 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "122.0.6261.111" ],
+  "name" : "CHROME_VERSION"
+} ]

@@ -1,1 +1,21 @@
-[{"uid":"178d7ec4397b665f","name":"Test x","time":{"start":1710871125547,"stop":1710871125547,"duration":0},"status":"passed","severity":"normal"},{"uid":"e464dd07812ef338","name":"Test text box form.","time":{"start":1710871118139,"stop":1710871124705,"duration":6566},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "87a264147cb06867",
+  "name" : "Test x",
+  "time" : {
+    "start" : 1710875606264,
+    "stop" : 1710875606265,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0444256084fbf4d",
+  "name" : "Test text box form.",
+  "time" : {
+    "start" : 1710875596829,
+    "stop" : 1710875605428,
+    "duration" : 8599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
