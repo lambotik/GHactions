@@ -1,11 +1,11 @@
 {
-  "uid" : "b8603b043ce2c5b6",
+  "uid" : "dfc5d00d57d66c0",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1710864613383,
-    "stop" : 1710864613383,
+    "start" : 1710864964387,
+    "stop" : 1710864964387,
     "duration" : 0
   },
   "status" : "passed",
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710864603626,
-      "stop" : 1710864603642,
+      "start" : 1710864957904,
+      "stop" : 1710864957920,
       "duration" : 16
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710864612612,
-      "stop" : 1710864613383,
-      "duration" : 771
+      "start" : 1710864963619,
+      "stop" : 1710864964387,
+      "duration" : 768
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,8 +45,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710864613384,
-      "stop" : 1710864613439,
+      "start" : 1710864964388,
+      "stop" : 1710864964443,
       "duration" : 55
     },
     "status" : "passed",
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az1208-527"
+    "value" : "fv-az573-278"
   }, {
     "name" : "thread",
-    "value" : "1781-MainThread"
+    "value" : "1741-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -96,11 +96,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "b8603b043ce2c5b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710864613383,
+          "stop" : 1710864613383,
+          "duration" : 0
+        }
+      }, {
         "uid" : "9630e998f320d7b8",
         "status" : "passed",
         "time" : {
@@ -112,6 +120,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "b8603b043ce2c5b6.json",
+  "source" : "dfc5d00d57d66c0.json",
   "parameterValues" : [ ]
 }

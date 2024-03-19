@@ -1,12 +1,12 @@
 {
-  "uid" : "d9dc45108d927312",
+  "uid" : "4479ed5312c4f59c",
   "name" : "Test text box form.",
   "fullName" : "tests.test_text_box#test_textbox_form",
   "historyId" : "66441f5fe77bd76f5ace56a5cfe0250a",
   "time" : {
-    "start" : 1710864605539,
-    "stop" : 1710864612547,
-    "duration" : 7008
+    "start" : 1710864959914,
+    "stop" : 1710864963554,
+    "duration" : 3640
   },
   "description" : "This test checks the data entered and the data in the displayed table.",
   "descriptionHtml" : "<p>This test checks the data entered and the data in the displayed table.</p>\n",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710864603626,
-      "stop" : 1710864603642,
+      "start" : 1710864957904,
+      "stop" : 1710864957920,
       "duration" : 16
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710864603642,
-      "stop" : 1710864605538,
-      "duration" : 1896
+      "start" : 1710864957920,
+      "stop" : 1710864959914,
+      "duration" : 1994
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,26 +48,26 @@
     "description" : "This test checks the data entered and the data in the displayed table.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input customer full name:Борислав Жукова Чеславович.",
+      "name" : "Input customer full name:Дарья Исаков Георгиевич.",
       "time" : {
-        "start" : 1710864611887,
-        "stop" : 1710864611993,
-        "duration" : 106
+        "start" : 1710864962751,
+        "stop" : 1710864962978,
+        "duration" : 227
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710864611887,
-          "stop" : 1710864611928,
-          "duration" : 41
+          "start" : 1710864962752,
+          "stop" : 1710864962818,
+          "duration" : 66
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710864611907,
-            "stop" : 1710864611928,
+            "start" : 1710864962797,
+            "stop" : 1710864962818,
             "duration" : 21
           },
           "status" : "passed",
@@ -99,27 +99,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer email:varfolome2008@example.com.",
+      "name" : "Input customer email:evse_46@example.org.",
       "time" : {
-        "start" : 1710864611993,
-        "stop" : 1710864612146,
-        "duration" : 153
+        "start" : 1710864962978,
+        "stop" : 1710864963155,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710864611993,
-          "stop" : 1710864612054,
-          "duration" : 61
+          "start" : 1710864962978,
+          "stop" : 1710864963111,
+          "duration" : 133
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710864612015,
-            "stop" : 1710864612054,
-            "duration" : 39
+            "start" : 1710864963094,
+            "stop" : 1710864963111,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -150,27 +150,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer current_address:ст. Люберцы, ш. Загородное, д. 250 к. 24, 348412.",
+      "name" : "Input customer current_address:ст. Тюмень, пр. Украинский, д. 95, 341564.",
       "time" : {
-        "start" : 1710864612146,
-        "stop" : 1710864612245,
-        "duration" : 99
+        "start" : 1710864963155,
+        "stop" : 1710864963245,
+        "duration" : 90
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710864612146,
-          "stop" : 1710864612181,
-          "duration" : 35
+          "start" : 1710864963155,
+          "stop" : 1710864963188,
+          "duration" : 33
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710864612162,
-            "stop" : 1710864612181,
-            "duration" : 19
+            "start" : 1710864963171,
+            "stop" : 1710864963188,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -201,27 +201,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Input customer permanent_address:п. Усть-Камчатск, пер. Садовый, д. 1 к. 5, 105433.",
+      "name" : "Input customer permanent_address:ст. Нарьян-Мар, бул. Пионерский, д. 6/3 стр. 93, 579928.",
       "time" : {
-        "start" : 1710864612245,
-        "stop" : 1710864612340,
-        "duration" : 95
+        "start" : 1710864963245,
+        "stop" : 1710864963347,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710864612245,
-          "stop" : 1710864612279,
-          "duration" : 34
+          "start" : 1710864963245,
+          "stop" : 1710864963277,
+          "duration" : 32
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710864612261,
-            "stop" : 1710864612279,
-            "duration" : 18
+            "start" : 1710864963260,
+            "stop" : 1710864963277,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -254,17 +254,17 @@
     }, {
       "name" : "Scroll to Submit button.",
       "time" : {
-        "start" : 1710864612340,
-        "stop" : 1710864612381,
-        "duration" : 41
+        "start" : 1710864963347,
+        "stop" : 1710864963389,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is presence",
         "time" : {
-          "start" : 1710864612340,
-          "stop" : 1710864612356,
-          "duration" : 16
+          "start" : 1710864963347,
+          "stop" : 1710864963364,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -287,25 +287,25 @@
     }, {
       "name" : "Click to Submit button.",
       "time" : {
-        "start" : 1710864612381,
-        "stop" : 1710864612451,
-        "duration" : 70
+        "start" : 1710864963389,
+        "stop" : 1710864963464,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable",
         "time" : {
-          "start" : 1710864612381,
-          "stop" : 1710864612418,
-          "duration" : 37
+          "start" : 1710864963390,
+          "stop" : 1710864963424,
+          "duration" : 34
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1710864612399,
-            "stop" : 1710864612418,
-            "duration" : 19
+            "start" : 1710864963406,
+            "stop" : 1710864963424,
+            "duration" : 18
           },
           "status" : "passed",
           "steps" : [ ],
@@ -338,9 +338,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710864612451,
-        "stop" : 1710864612468,
-        "duration" : 17
+        "start" : 1710864963464,
+        "stop" : 1710864963479,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
@@ -356,9 +356,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710864612481,
-        "stop" : 1710864612496,
-        "duration" : 15
+        "start" : 1710864963491,
+        "stop" : 1710864963505,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -374,9 +374,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710864612503,
-        "stop" : 1710864612518,
-        "duration" : 15
+        "start" : 1710864963512,
+        "stop" : 1710864963526,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -392,9 +392,9 @@
     }, {
       "name" : "Check element is presence",
       "time" : {
-        "start" : 1710864612526,
-        "stop" : 1710864612541,
-        "duration" : 15
+        "start" : 1710864963532,
+        "stop" : 1710864963548,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -408,10 +408,10 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Getting table values:['Борислав Жукова Чеславович', 'varfolome2008@example.com', 'ст. Люберцы, ш. Загородное, д. 250 к. 24, 348412', 'п. Усть-Камчатск, пер. Садовый, д. 1 к. 5, 105433']",
+      "name" : "Getting table values:['Дарья Исаков Георгиевич', 'evse_46@example.org', 'ст. Тюмень, пр. Украинский, д. 95, 341564', 'ст. Нарьян-Мар, бул. Пионерский, д. 6/3 стр. 93, 579928']",
       "time" : {
-        "start" : 1710864612547,
-        "stop" : 1710864612547,
+        "start" : 1710864963554,
+        "stop" : 1710864963554,
         "duration" : 0
       },
       "status" : "passed",
@@ -433,8 +433,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710864612548,
-      "stop" : 1710864612609,
+      "start" : 1710864963555,
+      "stop" : 1710864963616,
       "duration" : 61
     },
     "status" : "passed",
@@ -454,10 +454,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "fv-az1208-527"
+    "value" : "fv-az573-278"
   }, {
     "name" : "thread",
-    "value" : "1781-MainThread"
+    "value" : "1741-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -484,11 +484,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "d9dc45108d927312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710864605539,
+          "stop" : 1710864612547,
+          "duration" : 7008
+        }
+      }, {
         "uid" : "11e038c7f6087926",
         "status" : "passed",
         "time" : {
@@ -500,6 +508,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "d9dc45108d927312.json",
+  "source" : "4479ed5312c4f59c.json",
   "parameterValues" : [ ]
 }
