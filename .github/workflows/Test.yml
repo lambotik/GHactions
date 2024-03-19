@@ -28,9 +28,6 @@ jobs:
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Run tests
-        env:
-          EMAIL: ${{ secrets.EMAIL}}
-          PASSWORD: ${{ secrets.PASSWORD}}
         run: |
           pytest -s -vv --alluredir=allure-results
       - name: Add allure information
@@ -52,24 +49,38 @@ jobs:
           path: ./.github/gh-pages
 
 
-      - name: Copy history from gh-pages to allure-results
+      - name: 1. Get Allure history
+        uses: actions/checkout@v4
         if: always()
-        run: |
-          sudo mkdir -p allure-results/history
-          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-      - name: Generate Allure report
+      - name: 2. Download Artifacts
+        uses: actions/download-artifact@v3
+        id: download
         if: always()
-        run: |
-          sudo docker-compose run regression /bin/sh -c "allure generate allure-results -o allure-report"
+        continue-on-error: true
+        with:
+          name: allure-results
+          path: allure-results
 
-      - name: Update Allure history
+      - name: 3. Generate allure report
+        uses: simple-elf/allure-report-action@master
         if: always()
-        run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+        id: allure-report
+        with:
+          allure_results: allure-results
+          allure_report: allure-report
+          gh_pages: gh-pages
+          allure_history: allure-history
+          ref: gh-pages
+          path: gh-pages
+          keep_reports: 100
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 4. Deploy allure_report to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
         if: always()
         with:
           token: ${{ secrets.CI_TOKEN }}
