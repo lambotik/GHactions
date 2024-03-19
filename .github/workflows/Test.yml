@@ -29,7 +29,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Run tests
         run: |
-          pytest -s -vv --alluredir=allure-results
+          pytest -s -v --alluredir=allure-results
       - name: Add allure information
         working-directory: allure-results
         if: always()
@@ -40,15 +40,6 @@ jobs:
           echo GIT_COMMIT_AUTHOR_NAME=$(git show -s --format='%ae' HEAD) >> environment.properties
           echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
           echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
-          
-
-      - name: 9. Upload artifact "allure-results"
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: allure-results
-          path: allure-results/
-          retention-days: 1
 
       - name: Checkout (copy) gh-pages repository to GitHub runner
         uses: actions/checkout@v4
@@ -58,41 +49,24 @@ jobs:
           path: ./.github/gh-pages
 
 
-      - name: 1. Get Allure history
-        uses: actions/checkout@v4
+      - name: Copy history from gh-pages to allure-results
         if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: 2. Download Artifacts
-        uses: actions/download-artifact@v3
-        id: download
+        run: |
+          sudo mkdir -p allure-results/history
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+      - name: Generate Allure report
         if: always()
-        continue-on-error: true
-        with:
-          name: allure-results
-          path: allure-results
+        run: |
+          sudo docker-compose run regression /bin/sh -c "allure generate allure-results -o allure-report"
 
-      - name: 3. Generate allure report
-        uses: simple-elf/allure-report-action@master
+      - name: Update Allure history
         if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          allure_report: allure-report
-          gh_pages: gh-pages
-          allure_history: allure-history
-          ref: gh-pages
-          path: gh-pages
-          keep_reports: 100
-
-      - name: 4. Deploy allure_report to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+        run: |
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         if: always()
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
           folder: allure-report
-          #clean: true/
