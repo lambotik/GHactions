@@ -52,9 +52,6 @@ jobs:
           path: ./.github/gh-pages
 
 
-
-
-
       - name: Copy history from gh-pages to allure-results
         if: always()
         run: |
