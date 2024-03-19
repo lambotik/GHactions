@@ -50,7 +50,7 @@ jobs:
     name: Generate & Deploy Allure report
     runs-on: ubuntu-latest
     if: always()
-    needs: [tests]
+    needs: [ tests ]
     steps:
       - name: 1. Get Allure history
         uses: actions/checkout@v4
