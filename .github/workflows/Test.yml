@@ -41,21 +41,51 @@ jobs:
           echo GIT_COMMIT_TIME=$(git show -s --format=%ci HEAD) >> environment.properties
           echo CHROME_VERSION=$(google-chrome --product-version) >> environment.properties
           
-
-      - name: Get Allure history
-        uses: actions/checkout@v2
+      - name: Checkout (copy) gh-pages repository to GitHub runner
+        uses: actions/checkout@v4
+        if: always()
         with:
           ref: gh-pages
-          path: gh-pages
+          path: ./.github/gh-pages
 
-      - name: Generate Allure Report with history
+
+      - name: Copy history from gh-pages to allure-results
+        if: always()
         run: |
+          sudo mkdir -p allure-results/history
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+      - name: Generate Allure report
+        if: always()
+        run: |
+          # sudo docker-compose run regression /bin/sh -c "allure generate allure-results -o allure-report"
           cp -r allure-report/history allure-history
           cp -r allure-results allure-history
+      - name: Update Allure history
+        if: always()
+        run: |
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: always()
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: gh-pages
+          folder: allure-history
+          #clean: true/
+      # - name: Get Allure history
+      #   uses: actions/checkout@v2
+      #   with:
+      #     ref: gh-pages
+      #     path: gh-pages
 
-      - name: Deploy report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+      # - name: Generate Allure Report with history
+      #   run: |
+      #     cp -r allure-report/history allure-history
+      #     cp -r allure-results allure-history
+
+      # - name: Deploy report to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v2
+      #   env:
+      #     PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
+      #     PUBLISH_BRANCH: gh-pages
+      #     PUBLISH_DIR: allure-history
