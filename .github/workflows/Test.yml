@@ -57,9 +57,8 @@ jobs:
       - name: Generate Allure report
         if: always()
         run: |
-          # sudo docker-compose run regression /bin/sh -c "allure generate allure-results -o allure-report"
-          cp -r allure-report/history allure-history
-          cp -r allure-results allure-history
+          sudo docker-compose run regression /bin/sh -c "allure generate allure-results -o allure-report"
+
       - name: Update Allure history
         if: always()
         run: |
@@ -70,22 +69,4 @@ jobs:
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
-          folder: allure-history
-          #clean: true/
-      # - name: Get Allure history
-      #   uses: actions/checkout@v2
-      #   with:
-      #     ref: gh-pages
-      #     path: gh-pages
-
-      # - name: Generate Allure Report with history
-      #   run: |
-      #     cp -r allure-report/history allure-history
-      #     cp -r allure-results allure-history
-
-      # - name: Deploy report to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v2
-      #   env:
-      #     PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
-      #     PUBLISH_BRANCH: gh-pages
-      #     PUBLISH_DIR: allure-history
+          folder: allure-report
