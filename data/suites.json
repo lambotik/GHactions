@@ -6,13 +6,13 @@
       "name" : "Text Form",
       "children" : [ {
         "name" : "Test text box form.",
-        "uid" : "d0444256084fbf4d",
+        "uid" : "ddbb9d96981fb789",
         "parentUid" : "5ca0f4df4873b9c7e12ca5ff9c10f1ed",
         "status" : "passed",
         "time" : {
-          "start" : 1710875596829,
-          "stop" : 1710875605428,
-          "duration" : 8599
+          "start" : 1710875886537,
+          "stop" : 1710875890035,
+          "duration" : 3498
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "test_text_box",
       "children" : [ {
         "name" : "Test x",
-        "uid" : "87a264147cb06867",
+        "uid" : "8daf9d4e19d0ad28",
         "parentUid" : "d736e6a3711f21b6a0aa6b09361110b9",
         "status" : "passed",
         "time" : {
-          "start" : 1710875606264,
-          "stop" : 1710875606265,
-          "duration" : 1
+          "start" : 1710875890871,
+          "stop" : 1710875890871,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,

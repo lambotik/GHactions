@@ -2,16 +2,16 @@
   "values" : [ "master" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "d9de43322432b278f441be668e44be397fe46253" ],
+  "values" : [ "6cd607398ca7888ecb6b26f07abc4377526c5e83" ],
   "name" : "GIT_COMMIT_ID"
 }, {
-  "values" : [ "Update Test.yml" ],
+  "values" : [ "Merge pull request #36 from lambotik/detached27" ],
   "name" : "GIT_COMMIT_MESSAGE"
 }, {
   "values" : [ "91555504+lambotik@users.noreply.github.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2024-03-19 22:12:41 +0300" ],
+  "values" : [ "2024-03-19 22:17:33 +0300" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
   "values" : [ "122.0.6261.111" ],

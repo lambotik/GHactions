@@ -4,6 +4,11 @@
     "retry" : 0
   }
 }, {
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 86,
   "reportUrl" : "https://lambotik.github.io/GHactions/86/",
   "reportName" : "Allure Report with history",
