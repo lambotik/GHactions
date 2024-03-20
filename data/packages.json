@@ -4,26 +4,26 @@
     "name" : "tests.test_text_box",
     "children" : [ {
       "name" : "Test text box form.",
-      "uid" : "ddbb9d96981fb789",
+      "uid" : "8b99a87e832b185",
       "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
       "status" : "passed",
       "time" : {
-        "start" : 1710875886537,
-        "stop" : 1710875890035,
-        "duration" : 3498
+        "start" : 1710937157983,
+        "stop" : 1710937174345,
+        "duration" : 16362
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Test x",
-      "uid" : "8daf9d4e19d0ad28",
+      "uid" : "683a8e758e1b1661",
       "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
       "status" : "passed",
       "time" : {
-        "start" : 1710875890871,
-        "stop" : 1710875890871,
-        "duration" : 0
+        "start" : 1710937175181,
+        "stop" : 1710937175182,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,

@@ -1,20 +1,20 @@
 [ {
-  "uid" : "ddbb9d96981fb789",
-  "name" : "Test text box form.",
+  "uid" : "683a8e758e1b1661",
+  "name" : "Test x",
   "time" : {
-    "start" : 1710875886537,
-    "stop" : 1710875890035,
-    "duration" : 3498
+    "start" : 1710937175181,
+    "stop" : 1710937175182,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8daf9d4e19d0ad28",
-  "name" : "Test x",
+  "uid" : "8b99a87e832b185",
+  "name" : "Test text box form.",
   "time" : {
-    "start" : 1710875890871,
-    "stop" : 1710875890871,
-    "duration" : 0
+    "start" : 1710937157983,
+    "stop" : 1710937174345,
+    "duration" : 16362
   },
   "status" : "passed",
   "severity" : "normal"

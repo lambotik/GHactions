@@ -17,6 +17,15 @@
     "total" : 2
   }
 }, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
   "buildOrder" : 86,
   "reportUrl" : "https://lambotik.github.io/GHactions/86/",
   "reportName" : "Allure Report with history",

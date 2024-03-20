@@ -1,22 +1,22 @@
 {
-  "uid" : "8daf9d4e19d0ad28",
+  "uid" : "683a8e758e1b1661",
   "name" : "Test x",
   "fullName" : "tests.test_text_box#test_x",
   "historyId" : "f123bd16f6254dfbd03f5e31dd162e98",
   "time" : {
-    "start" : 1710875890871,
-    "stop" : 1710875890871,
-    "duration" : 0
+    "start" : 1710937175181,
+    "stop" : 1710937175182,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710875890100,
-      "stop" : 1710875890871,
-      "duration" : 771
+      "start" : 1710937112779,
+      "stop" : 1710937112795,
+      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "driver",
     "time" : {
-      "start" : 1710875880147,
-      "stop" : 1710875880163,
-      "duration" : 16
+      "start" : 1710937174409,
+      "stop" : 1710937175181,
+      "duration" : 772
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,8 +45,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710875890872,
-      "stop" : 1710875890927,
+      "start" : 1710937175182,
+      "stop" : 1710937175237,
       "duration" : 55
     },
     "status" : "passed",
@@ -66,10 +66,10 @@
     "value" : "test_text_box"
   }, {
     "name" : "host",
-    "value" : "fv-az736-765"
+    "value" : "fv-az1424-318"
   }, {
     "name" : "thread",
-    "value" : "1781-MainThread"
+    "value" : "1772-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -96,11 +96,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "8daf9d4e19d0ad28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710875890871,
+          "stop" : 1710875890871,
+          "duration" : 0
+        }
+      }, {
         "uid" : "87a264147cb06867",
         "status" : "passed",
         "time" : {
@@ -121,6 +129,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "8daf9d4e19d0ad28.json",
+  "source" : "683a8e758e1b1661.json",
   "parameterValues" : [ ]
 }
