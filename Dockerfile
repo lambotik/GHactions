@@ -1,6 +1,6 @@
 FROM python:alpine
 
-WORKDIR ./usr/PulseWave
+WORKDIR ./usr/GHactions
 
 RUN apk update && apk upgrade && apk add bash
 
