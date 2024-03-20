@@ -1,0 +1,42 @@
+{
+  "66441f5fe77bd76f5ace56a5cfe0250a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9969e0babcc2009",
+      "reportUrl" : "https://lambotik.github.io/GHactions/94//#testresult/d9969e0babcc2009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710937289246,
+        "stop" : 1710937304460,
+        "duration" : 15214
+      }
+    } ]
+  },
+  "f123bd16f6254dfbd03f5e31dd162e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1a9bbf3e83484d9",
+      "reportUrl" : "https://lambotik.github.io/GHactions/94//#testresult/d1a9bbf3e83484d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710937305299,
+        "stop" : 1710937305299,
+        "duration" : 0
+      }
+    } ]
+  }
+}
