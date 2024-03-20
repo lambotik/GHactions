@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "master" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "8e92be249cd81c0481cbc0a0a4936c4fc9ad03b9" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Merge pull request #38 from lambotik/detached29" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-03-20 15:27:58 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "122.0.6261.128" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/GHactions" ],
+  "name" : "URL"
+} ]
