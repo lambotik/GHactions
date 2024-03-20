@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_text_box",
+    "children" : [ {
+      "name" : "Test text box form.",
+      "uid" : "76158162ea6a4d3d",
+      "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710937891346,
+        "stop" : 1710937901705,
+        "duration" : 10359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test x",
+      "uid" : "2f494419e244cf75",
+      "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710937902546,
+        "stop" : 1710937902546,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_text_box"
+  } ],
+  "name" : "packages"
+}

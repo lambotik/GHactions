@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az702-800",
+    "children" : [ {
+      "name" : "2268-MainThread",
+      "children" : [ {
+        "name" : "Test text box form.",
+        "uid" : "76158162ea6a4d3d",
+        "parentUid" : "adae9e773e82a91ad7b130f176a72aad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937891346,
+          "stop" : 1710937901705,
+          "duration" : 10359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test x",
+        "uid" : "2f494419e244cf75",
+        "parentUid" : "adae9e773e82a91ad7b130f176a72aad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937902546,
+          "stop" : 1710937902546,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adae9e773e82a91ad7b130f176a72aad"
+    } ],
+    "uid" : "19426e5a8d914013576f85638d5da9a4"
+  } ],
+  "name" : "timeline"
+}

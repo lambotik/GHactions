@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "Text Form",
+      "children" : [ {
+        "name" : "Test text box form.",
+        "uid" : "76158162ea6a4d3d",
+        "parentUid" : "5ca0f4df4873b9c7e12ca5ff9c10f1ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937891346,
+          "stop" : 1710937901705,
+          "duration" : 10359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ca0f4df4873b9c7e12ca5ff9c10f1ed"
+    }, {
+      "name" : "test_text_box",
+      "children" : [ {
+        "name" : "Test x",
+        "uid" : "2f494419e244cf75",
+        "parentUid" : "d736e6a3711f21b6a0aa6b09361110b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937902546,
+          "stop" : 1710937902546,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d736e6a3711f21b6a0aa6b09361110b9"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}
