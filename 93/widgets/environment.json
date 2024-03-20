@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "detached28" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "54942771b70c5e1590ac7fc8b054948fa0e36f9e" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Merge branch 'master' into detached28" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-03-20 15:20:02 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "122.0.6261.128" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/GHactions" ],
+  "name" : "URL"
+} ]
