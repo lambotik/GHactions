@@ -1,0 +1,533 @@
+{
+  "uid" : "b2d82d7165f6bc7a",
+  "name" : "Test text box form.",
+  "fullName" : "tests.test_text_box#test_textbox_form",
+  "historyId" : "66441f5fe77bd76f5ace56a5cfe0250a",
+  "time" : {
+    "start" : 1710938404291,
+    "stop" : 1710938410632,
+    "duration" : 6341
+  },
+  "description" : "This test checks the data entered and the data in the displayed table.",
+  "descriptionHtml" : "<p>This test checks the data entered and the data in the displayed table.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710938395702,
+      "stop" : 1710938395719,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1710938395719,
+      "stop" : 1710938404291,
+      "duration" : 8572
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test checks the data entered and the data in the displayed table.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input customer full name:Нинель Зыков Сергеевна.",
+      "time" : {
+        "start" : 1710938409717,
+        "stop" : 1710938410115,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is visible and clickable",
+        "time" : {
+          "start" : 1710938409717,
+          "stop" : 1710938409767,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1710938409745,
+            "stop" : 1710938409767,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@id=\"userName\"]')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@id=\"userName\"]')"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Input customer email:kiselevdemjan@example.org.",
+      "time" : {
+        "start" : 1710938410115,
+        "stop" : 1710938410197,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is visible and clickable",
+        "time" : {
+          "start" : 1710938410116,
+          "stop" : 1710938410149,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1710938410132,
+            "stop" : 1710938410149,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'userEmail')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('id', 'userEmail')"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Input customer current_address:ст. Дудинка, ш. Ударное, д. 1 стр. 51, 823563.",
+      "time" : {
+        "start" : 1710938410197,
+        "stop" : 1710938410301,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is visible and clickable",
+        "time" : {
+          "start" : 1710938410197,
+          "stop" : 1710938410231,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1710938410213,
+            "stop" : 1710938410231,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'currentAddress')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('id', 'currentAddress')"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Input customer permanent_address:к. Приозерск, алл. Макаренко, д. 541 стр. 3, 106306.",
+      "time" : {
+        "start" : 1710938410302,
+        "stop" : 1710938410400,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is visible and clickable",
+        "time" : {
+          "start" : 1710938410302,
+          "stop" : 1710938410336,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1710938410318,
+            "stop" : 1710938410336,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'permanentAddress')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('id', 'permanentAddress')"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Scroll to Submit button.",
+      "time" : {
+        "start" : 1710938410400,
+        "stop" : 1710938410444,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is presence",
+        "time" : {
+          "start" : 1710938410400,
+          "stop" : 1710938410417,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', '#submit')"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click to Submit button.",
+      "time" : {
+        "start" : 1710938410444,
+        "stop" : 1710938410537,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is visible and clickable",
+        "time" : {
+          "start" : 1710938410444,
+          "stop" : 1710938410484,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1710938410466,
+            "stop" : 1710938410484,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', '#submit')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', '#submit')"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check element is presence",
+      "time" : {
+        "start" : 1710938410538,
+        "stop" : 1710938410555,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('id', 'name')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check element is presence",
+      "time" : {
+        "start" : 1710938410565,
+        "stop" : 1710938410581,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('id', 'email')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check element is presence",
+      "time" : {
+        "start" : 1710938410588,
+        "stop" : 1710938410604,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('xpath', '//p[@id=\"currentAddress\"]')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check element is presence",
+      "time" : {
+        "start" : 1710938410610,
+        "stop" : 1710938410626,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('xpath', '//p[@id=\"permanentAddress\"]')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Getting table values:['Нинель Зыков Сергеевна', 'kiselevdemjan@example.org', 'ст. Дудинка, ш. Ударное, д. 1 стр. 51, 823563', 'к. Приозерск, алл. Макаренко, д. 541 стр. 3, 106306']",
+      "time" : {
+        "start" : 1710938410632,
+        "stop" : 1710938410632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1710938410633,
+      "stop" : 1710938410694,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Text Form"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1019-297"
+  }, {
+    "name" : "thread",
+    "value" : "2333-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_text_box"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "76158162ea6a4d3d",
+        "reportUrl" : "https://lambotik.github.io/GHactions/96//#testresult/76158162ea6a4d3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937891346,
+          "stop" : 1710937901705,
+          "duration" : 10359
+        }
+      }, {
+        "uid" : "201814db255f855b",
+        "reportUrl" : "https://lambotik.github.io/GHactions/95//#testresult/201814db255f855b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937743760,
+          "stop" : 1710937750932,
+          "duration" : 7172
+        }
+      }, {
+        "uid" : "85d18b48162c308c",
+        "reportUrl" : "https://lambotik.github.io/GHactions/93//#testresult/85d18b48162c308c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937312976,
+          "stop" : 1710937325540,
+          "duration" : 12564
+        }
+      }, {
+        "uid" : "d9969e0babcc2009",
+        "reportUrl" : "https://lambotik.github.io/GHactions/94//#testresult/d9969e0babcc2009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710937289246,
+          "stop" : 1710937304460,
+          "duration" : 15214
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b2d82d7165f6bc7a.json",
+  "parameterValues" : [ ]
+}

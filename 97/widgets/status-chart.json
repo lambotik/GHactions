@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b2d82d7165f6bc7a",
+  "name" : "Test text box form.",
+  "time" : {
+    "start" : 1710938404291,
+    "stop" : 1710938410632,
+    "duration" : 6341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8829b3ecb98512af",
+  "name" : "Test x",
+  "time" : {
+    "start" : 1710938411468,
+    "stop" : 1710938411468,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

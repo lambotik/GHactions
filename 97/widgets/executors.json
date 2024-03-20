@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://lambotik.github.io/GHactions",
+  "buildOrder" : 97,
+  "buildName" : "GitHub Actions Run #8359059319",
+  "buildUrl" : "https://github.com/lambotik/GHactions/actions/runs/8359059319",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://lambotik.github.io/GHactions/97/"
+} ]
